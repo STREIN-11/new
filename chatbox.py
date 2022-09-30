@@ -45,6 +45,25 @@ def chatBox(text):
                speak(reply)
 
 #          here
+          elif word in Bye:
+               reply = random.choice(reply_Bye)
+
+               speak(reply)
+
+          elif word in How_are_you:
+               reply = random.choice(reply_How)
+
+               speak(reply)
+
+          elif word in nice:
+               reply = random.choice(reply_nice)
+
+               speak(reply)
+
+          elif word in Functions:
+               reply = random.choice(reply_Functtion)
+
+               speak(reply)
 
           # else:
           #      return random.choice(Sorry_reply)
